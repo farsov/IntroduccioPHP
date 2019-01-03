@@ -4,7 +4,7 @@ require_once('jobs.php');
 
 $lastName = 'Soto';
 $name = "Farid $lastName";
-$limitMonths = 12;
+$limitMonths = 20;
 
 
 ?>
