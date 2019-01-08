@@ -1,7 +1,8 @@
 <?php 
 
 use App\Models\Job;
-require_once('jobs.php');
+
+//require_once('jobs.php');
 
 $lastName = 'Soto';
 $name = "Farid $lastName";
@@ -29,7 +30,7 @@ $limitMonths = 20;
   <div class="container">
     <div id="resume-header" class="row">
       <div class="col-3">
-        <img id="profile-picture" src="https://ui-avatars.com/api/?name=John+Doe&size=255" alt="">
+        <img id="profile-picture" src="https://ui-avatars.com/api/?name=Farid+Soto=255" alt="">
       </div>
       <div class="col">
         <h1><?php echo $name; ?></h1>
@@ -140,7 +141,7 @@ $limitMonths = 20;
     </div>
     <div id="resume-footer" class="row">
       <div class="col">
-          Designed by @hectorbenitez
+          Designed by @Faridsoto
       </div>
     </div>
   </div>

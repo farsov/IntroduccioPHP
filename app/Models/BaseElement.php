@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-
-
 class BaseElement implements Printable {
     protected $title;
     public $description;

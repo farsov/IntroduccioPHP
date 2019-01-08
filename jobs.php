@@ -1,8 +1,5 @@
 <?php
 
-
-require_once 'vendor/autoload.php';
-
 use App\Models\{Job, Project};
 
 $jobs = Job::all();
@@ -14,10 +11,7 @@ $projects = [
 ];
   
 function printElement( $job) {
-    /*if($job->visible == false) {
-      return;
-    }*/
-  
+
     echo '<li class="work-position">';
     echo '<h5>' . $job->title . '</h5>';
     echo '<p>' . $job->description . '</p>';
@@ -30,3 +24,4 @@ function printElement( $job) {
     echo '</ul>';
     echo '</li>';
 }
+
