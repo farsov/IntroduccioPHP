@@ -1,5 +1,4 @@
 RewriteEngine On
-RewriteCond %{THE_REQUEST} 
-/FundamentosPHP/public/([^\s?]*) [NC]
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
 RewriteRule ^ %1 [L,NE,R=302]
-RewriteRule ^((?!FundamentosPHP/public/).*)$ FundamentosPHP/public//$1 [L,NC]
+RewriteRule ^tools\/((?!public/).*)$ public/$1 [L,NC]

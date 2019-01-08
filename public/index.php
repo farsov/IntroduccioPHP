@@ -39,11 +39,11 @@ $request = Zend\Diactoros\ServerRequestFactory::fromGlobals(
 
 
 
-/*$map->get('index', '/', [
+$map->get('index', '/', [
     'controller' => 'App\Controllers\IndexController',
     'action' => 'indexAction'
 ]);
-$map->get('index', 'home/vagrant/code/FundamentosPHP/public/', '../index.php');
+//$map->get('index', 'home/vagrant/code/FundamentosPHP/public/', '../index.php');
 $map->get('addJobs', 'home/vagrant/code/FundamentosPHP/public/job/add', '../addJob.php');
 
 
@@ -60,9 +60,9 @@ if (!$route) {
 
     $controller = new $controllerName;
     $controller->$actionName();
-}*/
+}
 
-var_dump($request->getUri()->getPath());
+//var_dump($request->getUri()->getPath());
 //var_dump($route);
 
 
